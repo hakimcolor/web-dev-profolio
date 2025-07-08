@@ -141,6 +141,52 @@ header {
 
 /* main style */
 main {
-  max-width: 1140px;
+  max-width: 1340px;
   margin: 0 auto;
+}
+.skillls-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  gap: 24px;
+}
+.skill {
+  width: 250px;
+  height: 300px;
+  background-color: #ffffff;
+  padding: 30px;
+  box-shadow: 2px 4px 20px rgba(89, 43, 43, 0.15);
+  border-radius: 10px;
+  padding-bottom: 40px;
+}
+.skill-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+.s-dd {
+  text-align: center;
+}
+.summary {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 130px;
+}
+.education {
+  height: 175px;
+  width: 511px;
+}
+.education-title {
+  font-weight: bold;
+  font-size: 25px;
+}
+.education-dex {
+  font-weight: 300;
+  font-size: 16px;
+}
+.summary-flexss {
+  display: flex;
+justify-content: space-around;
+justify-content: space-between;
 }
