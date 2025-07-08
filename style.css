@@ -45,3 +45,39 @@ nav {
   font-weight: 800px;
   font-size: 45px;
 }
+/* styles baner */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+}
+
+.banner-content1 {
+  font-weight: 600;
+  color: #474747;
+  font-size: 45px;
+}
+.banner-content2 {
+  color: black;
+  font-weight: bold;
+  font-size: 85px;
+  width: 798px;
+  height: 122.64px;
+  margin-top: -40px;
+}
+.banner-content3 {
+  color: #474747;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: -45px;
+}
+.banner-content4 {
+  margin-top: 17px;
+}
+/* heder background img */
+header {
+  background-image: url("../images/developer.png"), url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
