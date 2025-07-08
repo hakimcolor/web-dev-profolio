@@ -187,6 +187,34 @@ main {
 }
 .summary-flexss {
   display: flex;
-justify-content: space-around;
-justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+.inp {
+  border: none;
+  padding: 20px;
+  background-color: white;
+  margin-top: 20px;
+  width: 400px;
+}
+.footer-section {
+  margin-left: 230px;
+  margin-top: 130px;
+  width: auto;
+}
+.massege {
+  margin-top: 130px;
+  margin-right: 386px;
+}
+#btnn {
+  margin-top: 24px;
+}
+#footers {
+  height: 780px;
+}
+.connect-dex {
+  padding: 12px;
+}
+.icon {
+  margin-left: 10px;
 }
